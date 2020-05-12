@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    /* background-color: burlywood; */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.bg-image {background-image: url(../images/homebg.jpg);}
+.c-green {color: #A2CA28;}
+.c-pink {color: #fd634e;}
+.yes {
+    margin-top: 40%;
+    text-align: right;
+    max-width: 30%;
+}
+.hover-transition {transition: 0.2s ease-in-out;}
+.bgc-green {background-color: #A2CA28;}
+.h-400x{height: 400px;}
+.r-40x {right: 40px;}
+.b-50x{bottom: 50px;}
+.p-50-20x {padding: 50px 20px;}
+.minh-400x {min-height: 400px;}
+.c-gray {color: #565656;}
+.f-15x {font-size: 15px;}
+.w-87 {width: 87%;}
+.bgc-pink {background-color: #fd634e;}
+.p-50-15x {padding: 50px 15px 0px 40px;}
+.minh-310x {min-height: 300px;}
+.f-16x {font-size: 16px;}
+.pt-55x {padding-top: 55px;}
+.px-60x {padding: 0 60px;}
+.maxh {max-height: 350px;}
+.p-60x {padding: 60px;}
+.minh-359x {min-height: 359px;}
+.minh-330x {min-height: 330px;}
+.p-50x {padding: 50px;}
+.p-50-40x {padding: 50px 40px;}
+.bg-image-idea {
+    background-image: url(../images/bigideabg.jpg);
+    height: 725px;
+}
+.pt-240x{padding-top: 240px;}
+.f-42x {font-size: 42px;}
+.bgc-blue {background-color: #363855;}
+.px-15x{padding: 0 15px;}
+.pt-40x {padding-top: 40px;}
+.c-lightblue {color: #8297a7;}
+.my-50x {margin: 50px 0;}
+.p-6-12x {padding: 6px 12px;}
+.form-name {
+    width: 29%;
+    height: 50px;
+}
+.form-email {
+    width: 45%;
+    height: 50px
+}
+.form-submit {
+    width: 24%;
+    height: 50px;
+    background-color: #a2ca28;
+    border: 0px;
+    color: #fff;
+}
