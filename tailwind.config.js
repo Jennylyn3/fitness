@@ -1,12 +1,13 @@
 module.exports = {
-  purge: [],
   theme: {
-    colors: {
-      applegreen: '#A2CA28',
+    extend: {
+      colors: {
+        applegreen : '#A2CA28',
+      }
     }
   },
   variants: {
-    textColor: ['responsive', 'hover', 'focus'],
+    colors: ['responsive', 'hover', 'focus', 'active'],
   },
   plugins: [],
 }
