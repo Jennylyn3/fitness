@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-
+ 
+    
     <header class="bg-image">
 
         <div class="containers w-87 mx-auto p-4">
@@ -31,8 +32,8 @@
             </div>
         </div>
 
-        <div class="containers w-4/5 mx-auto py-16">
-            <div class="single_slider yes ">
+        <div class="slider-container w-4/5 mx-auto py-16">
+            <div class="slider-word text-right">
                 <h2 class="text-4xl text-white uppercase font-light">Fitness in a can <span class="c-green">/</span></h2>
                 <p class="mt-4 text-base text-white pr-8 text-right font-light">Yes you can  <span class="c-pink">/</span></p>
             </div>
@@ -42,7 +43,7 @@
 
 
     <section id="about" class="bgc-green">
-        <div class="containers w-87 mx-auto py-24 overflow-hidden flex text-white">
+        <div class="features-container w-87 sm:w-full mx-auto py-24 overflow-hidden flex text-white">
 
             <div class="features px-4">
                 <div class="single-features mb-5">
@@ -89,24 +90,24 @@
 
         </div>
 
-        <div class="containers w-87 mx-auto flex">
+        <div class="fitness-containers w-87 sm:w-full mx-auto flex">
 
-            <div class="text-center minh-400x bg-white p-50-20x">
+            <div class="md:w-1/3 sm:w-full text-center minh-400x bg-white p-50-20x">
                 <div class="heading">
                     <h5 class="uppercase c-pink text-sm">it’s all about</h5>
-                    <h3 class="text-4xl c-green uppercase font-light">fitness first</h3>
+                    <h3 class="md:text-4xl text-3xl c-green uppercase font-light">fitness first</h3>
                 </div>
                 <div class="fitness-icon">
-                    <i class="px-5"></i>
+                    <i class="py-5"></i>
                 </div>
-                <div class="fitness-content ">
+                <div class="fitness-content">
                     <p class="mb-3 f-15x c-gray font-light">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero voluptas culpa soluta in recusandae laudantium corporis animi, iusto possimus eligendi. Maiores aliquid natus fugit distinctio.</p>
                     <a class="text-sm c-green underline" href="">Read More</a>
                 </div>
             </div>
 
-            <div class="w-2/3 relative">
-                <div class="">
+            <div class="md:w-2/3 sm:w-full relative">
+                <div class="active-img">
                     <img class="w-full relative h-400x" src="images/ftnes1.jpg" alt="" />
                 </div>
                 <div class="content text-red-500 absolute r-40x b-50x text-xs">
@@ -116,26 +117,26 @@
 
         </div>
 
-        <div class="containers w-87 mx-auto flex">
+        <div class="body-containers w-87 sm:w-full mx-auto flex">
 
-            <div class="single_right_first_fitness w-2/3 relative">
-                <div class="single_right_first_fitness_img">
+            <div class="md:w-2/3 sm:w-full relative">
+                <div class="product-img">
                     <img class="w-full relative h-400x" src="images/ftnes1.jpg" alt="" />
                 </div>
-                <div class="single_right_first_fitness_content text-red-500 absolute r-40x b-50x text-xs">
+                <div class="content text-red-500 absolute r-40x b-50x text-xs">
                     <p>Products Used <span class="text-white">(658)</span> <i class=""></i></p>
                 </div>
             </div>
 
-            <div class="single_left_first_fitness text-center w-1/3 relative text-center minh-400x bg-white p-50-20x">
-                <div class="left_first_fitness_heading">
+            <div class="md:w-1/3 sm:w-full text-center relative text-center minh-400x bg-white p-50-20x">
+                <div class="heading">
                     <h5 class="uppercase c-pink text-sm">love your</h5>
                     <h3 class="text-4xl c-green uppercase font-light">your body</h3>
                 </div>
-                <div class="left_first_fitness_icon">
-                    <i class="px-5"></i>
+                <div class="fitness-icon">
+                    <i class="py-5"></i>
                 </div>
-                <div class="left_first_fitness_content">
+                <div class="fitness-content">
                     <p class="mb-3 f-15x c-gray font-light">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates obcaecati tempora voluptatem recusandae nobis consectetur ea facilis eum illum odio, architecto expedita rerum alias reiciendis!</p>
                     <a class="text-sm c-green underline" href="">Read More</a>
                 </div>
@@ -149,13 +150,13 @@
     <section class="bgc-pink">
         <div class="containers">
 
-            <div class="row w-87 mx-auto flex">
+            <div class="pink-row w-87 sm:w-full mx-auto flex">
 
-                <div class="w-1/3">
-                    <div class="">
-                        <img src="images/sum1.jpg" alt="" />
+                <div class="md:w-1/3 sm:w-full">
+                    <div class="sum-img minh-330x">
+                        <img class="max-w-full sum-img minh-330x" src="images/sum1.jpg" alt="" />
                     </div> 
-                    <div class="bg-white text-left p-50-15x minh-310x">
+                    <div class="sum-content bg-white text-left p-50-15x max-w-full minh-310x">
                         <h5 class="uppercase c-pink text-sm">track your</h5>
                         <h3 class="mb-8 text-4xl c-green uppercase font-light">lifestyle</h3>
                         <p class="mb-3 f-16x c-gray font-light">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -163,13 +164,13 @@
                     </div>
                 </div> 
     
-                <div class="w-2/3 relative">
-                    <div class="flex w-full pt-55x text-white f-16x">
+                <div class="md:w-2/3 sm:w-full relative">
+                    <div class="flex w-full pt-55x text-white f-16x absolute">
                         <p class="w-1/2 float-left text-left px-60x">24th august </p>
                         <p class="w-1/2 float-right text-right px-60x">health & fitness <span class=""><i class=""></i></span></p>
                     </div>
-                    <div class="">
-                        <img class="maxh w-full" src="images/sum2.jpg" alt="" />
+                    <div class="minh-330x">
+                        <img class="w-full maxh" src="images/sum2.jpg" alt="" />
                     </div>
     
                     <div class="bgc-green minh-310x p-60x text-white">
@@ -182,11 +183,11 @@
 
             </div>
 
-            <div class="row w-87 mx-auto flex">
+            <div class="pink-row w-87 sm:w-full mx-auto flex">
 
-                <div class="single_summer_item2 w-2/3">
-                    <div class="single_summer_item_img2 minh-330x">
-                        <img class="minh-359x" src="images/sum3.jpg" alt="" />
+                <div class="md:w-2/3 sm:w-full">
+                    <div class="w-full minh-330x">
+                        <img class="w-full  maxh" src="images/sum3.jpg" alt="" />
                     </div> 
                     <div class="single_summer_item_left_content2 bg-white minh-310x p-50x">
                         <h5 class="uppercase c-pink text-sm">track your</h5>
@@ -196,12 +197,12 @@
                     </div>
                 </div> 
 
-                <div class="single_summer_item2_righ w-1/3 bgc-green">
+                <div class="md:w-1/3 sm:w-full bgc-pink">
                     <div class="single_summer_item_img2_right minh-330x">
                         <img class="minh-359x" src="images/sum4.jpg" alt="" />
                     </div>
 
-                    <div class="single_summer_item_bottom_content2_right text-white p-50-40x">
+                    <div class="minh-310x bgc-green text-white p-50-40x">
                         <h5 class="uppercase">improve your</h5>
                         <h2  class="text-4xl uppercase font-light mb-8">eating habits</h2>
                         <p class="text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
@@ -218,7 +219,7 @@
 
 
     <section id="bigidea" class="bg-image-idea">
-        <div class="containers w-87 mx-auto">
+        <div class="containers w-87 sm:w-full mx-auto">
 
             <div class="row text-center text-white">
                 <div class="bigidea pt-240x">
@@ -232,30 +233,30 @@
 
 
     <footer class="bgc-blue">
-        <div class="containers w-87 mx-auto">
+        <div class="containers w-87 sm:w-full mx-auto">
 
-            <div class="row p-5 text-white flex">
+            <div class=" footer-row p-5 text-white flex">
 
-                <div class="w-1/3 px-15x float-left pt-40x">
+                <div class="bgc-blue md:w-1/3 sm:w-full px-15x float-left pt-40x">
                     <h4 class="text-base mb-4">Resources</h4>
                     <p class="text-xs leading-relaxed c-lightblue">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. 
                         work-in-progress by dragging images into projects and sharable client group</p>
                 </div>
 
-                <div class="w-2/3 flex float-left pt-40x">
+                <div class="bgc-blue about-row md:w-2/3 sm:w-full flex float-left pt-40x">
                     
                     <div class="">
-                        <div class="flex">
-                            <div class="w-1/2 px-15x">
+                        <div class="abouts flex">
+                            <div class="md:w-1/2 sm:w-full px-15x">
                                 <h4 class="text-base mb-4">About us</h4>
                                 <p class="text-xs leading-relaxed c-lightblue">Easily manage your inspiration and work-in-progress by dragging images into projects and sharable client groups. 
                                     work-in-progress by dragging images into projects and sharable client group</p>
                             </div>
             
-                            <div class="w-1/2 px-15x">
+                            <div class="md:w-1/2 sm:w-full px-15x">
                                 <h4 class="text-base mb-4">Stay in touch</h4>
                                 
-                                <div class="socail_area">
+                                <div class="social_area">
                                     <a href=""><i class=""></i></a>
                                     <a href=""><i class=""></i></a>
                                     <a href=""><i class=""></i></a>
@@ -266,7 +267,7 @@
         
         
                         <div class="widget my-50x">
-                            <div class="form-group">
+                            <div class="form-group px-2">
                                 <input type="text" class="form-name p-6-12x text-xs" name="name" placeholder="Your Name" required="">
                                 <input type="email" class="form-email p-6-12x text-xs" name="name" placeholder="Your Email" required="">
                                 <button type="submit" class="form-submit">Join Newsletter <i class="lnr lnr-chevron-right"></i></button>
